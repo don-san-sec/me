@@ -1,3 +1,134 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://donsan.uk"
+title = "David Sepashvili"
+languageCode = "en-gb"
+
+theme = "DoIt"
+enableEmoji = true
+
+[params]
+  version = "0.3.X"
+  description = "Security Engineer from Saint Petersburg, Russia"
+  keywords = ["David Sepashvili", "Security Engineer", "Security", "Personal Website", "Blog", "donsan", "donsansec", "Sepashvili"]
+
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarUrl = "/me.jpeg"
+      title = "David Sepashvili"
+      subtitle = "Security Engineer from London, UK"
+      typeit = false
+      social = true
+    [params.home.posts]
+      enable = false
+
+  [params.social]
+    GitHub = "don-san-sec"
+    Email = "don-san-sec@pm.me"
+    Linkedin = "david-sepashvili-5a3350b5"
+
+  [params.footer]
+    enable = false
+
+  [params.cookieconsent]
+    enable = false
+
+  [params.page]
+    hiddenFromHomePage = true
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = false
+    linkToSource = false
+    linkToEdit = false
+    linkToReport = true
+    rssFullText = true
+    pageStyle = "wide"
+    seriesNavigation = true
+    [params.page.outdatedArticleReminder]
+      enable = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.math]
+      enable = true
+      copyTex = true
+      mhchem = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 10
+    [params.page.table]
+      sort = true
+    [params.page.share]
+      enable = false
+    [params.page.comment]
+      enable = false
+    [params.page.seo]
+      images = []
+    [params.page.seo.publisher]
+      name = ""
+      logoUrl = ""
+
+
+[author]
+  name = "David Sepashvili"
+  email = "don-san-sec@pm.me"
+  link = "https://t.me/donsansec"
+  avatarUrl = "/me.jpeg"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  posts = ":filename"
+
+[privacy]
+  [privacy.googleAnalytics]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  taxonomyTerm = ["HTML"]
