@@ -6,7 +6,7 @@ enableEmoji: true
 params:
   version: 0.3.X
   title: David Sepashvili
-  description: Security Engineer from London, UK
+  description: Security Engineer from London
   images: /logo.png
   keywords:
     - David Sepashvili
@@ -24,7 +24,7 @@ params:
       enable: True
       avatarUrl: /me.jpeg
       title: David Sepashvili
-      subtitle: Security Engineer from London, UK
+      subtitle: Security Engineer from London with experience and knowledge on the defensive side and healthy interest in manual penetration testing and cloud security
       typeit: False
       social: True
     posts:
