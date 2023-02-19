@@ -1,0 +1,101 @@
+baseURL: https://donsan.uk
+title: David Sepashvili
+theme: DoIt
+enableEmoji: true
+
+params:
+  version: 0.3.X
+  title: David Sepashvili
+  description: Security Engineer from London, UK
+  images: /logo.png
+  keywords:
+    - David Sepashvili
+    - Security Engineer
+    - Security
+    - Personal Website
+    - Blog
+    - donsan
+    - donsansec
+    - Sepashvili
+
+  fingerprint: sha512
+  home:
+    profile:
+      enable: True
+      avatarUrl: /me.jpeg
+      title: David Sepashvili
+      subtitle: Security Engineer from London, UK
+      typeit: False
+      social: True
+    posts:
+      enable: False
+  social:
+    GitHub: don-san-sec
+    Email: don-san-sec@pm.me
+    Linkedin: david-sepashvili-5a3350b5
+    Telegram: donsansec
+  footer:
+    enable: False
+  cookieconsent:
+    enable: False
+  page:
+    hiddenFromHomePage: True
+    hiddenFromSearch: False
+    twemoji: False
+    lightgallery: False
+    ruby: True
+    fraction: True
+    fontawesome: True
+    linkToMarkdown: False
+    linkToSource: False
+    linkToEdit: False
+    linkToReport: True
+    rssFullText: True
+    pageStyle: wide
+    seriesNavigation: True
+    toc:
+      enable: True
+      keepStatic: False
+      auto: True
+    math:
+      enable: True
+      copyTex: True
+      mhchem: True
+    code:
+      copy: True
+      maxShownLines: 10
+    table:
+      sort: True
+    share:
+      enable: False
+    comment:
+      enable: False
+
+author:
+  name: David Sepashvili
+  email: don-san-sec@pm.me
+  link: https://t.me/donsansec
+  avatarUrl: /me.jpeg
+
+markup:
+  highlight:
+    codeFences: True
+    guessSyntax: True
+    lineNos: True
+    lineNumbersInTable: True
+    noClasses: False
+  goldmark:
+    extensions:
+      definitionList: True
+      footnote: True
+      linkify: True
+      strikethrough: True
+      table: True
+      taskList: True
+      typographer: True
+    renderer:
+      unsafe: True
+    tableOfContents:
+      startLevel: 2
+      endLevel: 6
+
