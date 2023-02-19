@@ -24,7 +24,7 @@ params:
       enable: True
       avatarUrl: /me.jpeg
       title: David Sepashvili
-      subtitle: Security Engineer from London with experience and knowledge on the defensive side and healthy interest in manual penetration testing.
+      subtitle: Security Engineer from London with experience and knowledge on the defensive side and healthy interest in manual penetration testing
       typeit: False
       social: True
     posts:
