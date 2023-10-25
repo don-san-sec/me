@@ -30,10 +30,9 @@ params:
     posts:
       enable: False
   social:
-    GitHub: don-san-sec
-    Email: don-san-sec@pm.me
-    Linkedin: david-sepashvili-5a3350b5
-    Telegram: donsansec
+    mail: don-san-sec@pm.me
+    Linkedin: donsan
+    Telegram: onsansec
     Twitter: donsansec
   footer:
     enable: False
