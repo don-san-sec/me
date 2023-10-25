@@ -30,7 +30,7 @@ params:
     posts:
       enable: False
   social:
-    mail: don-san-sec@pm.me
+    Mail: don-san-sec@pm.me
     Linkedin: donsan
     Telegram: onsansec
     Twitter: donsansec
