@@ -16,14 +16,13 @@ params:
     - donsan
     - donsansec
     - Sepashvili
-
   fingerprint: sha512
   home:
     profile:
       enable: True
       avatarUrl: /me.jpeg
       title: David Sepashvili
-      subtitle: Highly skilled Security Engineer with over 10 years of experience in infrastructure security. Proven track record of leading cloud security efforts, enhancing organizational threat detection capabilities, managing projects and teams.
+      subtitle: Security Engineer based in London
       typeit: False
       social: True
     posts:
@@ -96,4 +95,3 @@ markup:
     tableOfContents:
       startLevel: 2
       endLevel: 6
-
