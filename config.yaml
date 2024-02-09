@@ -28,10 +28,13 @@ params:
     posts:
       enable: False
   social:
-    Mail: don-san-sec@pm.me
+    Github: don-san-sec
     Linkedin: donsan
-    Telegram: donsansec
     Twitter: donsansec
+    Patreon: SecurityTalks
+    ko-fi: dsepashvili
+
+
   footer:
     enable: False
   cookieconsent:
