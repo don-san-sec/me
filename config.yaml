@@ -7,7 +7,6 @@ params:
   version: 0.3.X
   title: David Sepashvili
   description: Security Engineer from London
-  images: /logo.png
   keywords:
     - David Sepashvili
     - Security Engineer
@@ -70,12 +69,11 @@ params:
       enable: False
     comment:
       enable: False
-
-author:
-  name: David Sepashvili
-  email: don-san-sec@pm.me
-  link: https://t.me/donsansec
-  avatarUrl: /me.jpeg
+    author:
+      name: David Sepashvili
+      email: don-san-sec@pm.me
+      link: https://t.me/donsansec
+      avatarUrl: /me.jpeg
 
 markup:
   highlight:
