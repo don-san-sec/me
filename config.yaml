@@ -69,11 +69,6 @@ params:
       enable: False
     comment:
       enable: False
-    author:
-      name: David Sepashvili
-      email: don-san-sec@pm.me
-      link: https://t.me/donsansec
-      avatarUrl: /me.jpeg
 
 markup:
   highlight:
