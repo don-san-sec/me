@@ -1,7 +1,7 @@
 ---
 title: "Week 7, 2024: SANS DFIR, Black Hat, CCC and more"
 date: 2024-02-11T21:53:49Z
-draft: true
+draft: false
 ---
 In todays digest, excellent DFIR talks on Cloud IR, talk on Black Hat that covers Private API blah something something.
 <!--more-->
