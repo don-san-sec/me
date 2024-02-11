@@ -1,7 +1,7 @@
 ---
 title: "Test5"
 date: 2024-02-11T21:46:49Z
-draft: true
+draft: false
 author: David Sepashvili
 ---
 
