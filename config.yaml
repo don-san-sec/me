@@ -1,31 +1,40 @@
-baseURL: https://talks.donsan.uk
-title: Security Talks
+baseURL: https://donsan.uk
+title: David Sepashvili
 theme: DoIt
 enableEmoji: true
 
 params:
   version: 0.3.X
-  title: Security Talks
-  description: Weekly digest of the security talks, categorized, summarized, and tagged.
+  title: David Sepashvili
+  description: Security Engineer from London
+  keywords:
+    - David Sepashvili
+    - Security Engineer
+    - Security
+    - Personal Website
+    - Blog
+    - donsan
+    - donsansec
+    - Sepashvili
   fingerprint: sha512
   dateFormat: "2006-01-02"
-  images: ["/logo.png"]
+  images: ["/me.jpeg"]
   optimizeImages: true
 
   home:
     profile:
       enable: True
-      avatarUrl: /logo.png
-      title: Security Talks Digest
-      subtitle: Weekly digest of the security talks, categorized, summarized, and tagged.
+      avatarUrl: /me.jpeg
+      title: David Sepashvili
+      subtitle: Security Engineer based in London
       typeit: False
       social: True
     posts:
-      enable: False
+      enable: True
   social:
-    ko-fi: securitytalks
+    Github: don-san-sec
+    Linkedin: donsan
     Twitter: donsansec
-    Github: don-san-sec/security-talks
 
   footer:
     enable: False
@@ -36,38 +45,35 @@ params:
     hiddenFromSearch: False
     twemoji: False
     lightgallery: False
-    ruby: False
-    fraction: False
-    fontawesome: False
-    linkToMarkdown: False
-    linkToSource: False
-    linkToEdit: False
-    linkToReport: False
+    ruby: True
+    fraction: True
+    fontawesome: True
     rssFullText: True
-    seriesNavigation: False
     pageStyle: wide
+    seriesNavigation: True
     toc:
       enable: True
       keepStatic: False
       auto: True
     math:
-      enable: False
-      copyTex: False
-      mhchem: False
+      enable: True
+      copyTex: True
+      mhchem: True
     code:
-      copy: False
+      copy: True
       maxShownLines: 10
     table:
-      sort: False
+      sort: True
     share:
       enable: False
     comment:
       enable: False
-    author:
-      name: David Sepashvili
-      email: don-san-sec@pm.me
-      link: https://x.com/donsansec
-      avatarUrl: /me.jpeg
+
+author:
+  name: "David Sepashvili"
+  email: "don-san-sec@pm.me"
+  gravatarEmail: "tux.vs.window@gmail.com"
+
 
 markup:
   highlight:
