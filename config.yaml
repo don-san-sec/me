@@ -17,6 +17,8 @@ params:
     - donsansec
     - Sepashvili
   fingerprint: sha512
+  dateFormat: "2006-01-02"
+  images: ["/me.jpeg"]
   home:
     profile:
       enable: True
@@ -31,7 +33,6 @@ params:
     Github: don-san-sec
     Linkedin: donsan
     Twitter: donsansec
-
 
   footer:
     enable: False
