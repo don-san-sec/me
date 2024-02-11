@@ -26,7 +26,7 @@ params:
       typeit: False
       social: True
     posts:
-      enable: False
+      enable: True
   social:
     Github: don-san-sec
     Linkedin: donsan
@@ -38,7 +38,7 @@ params:
   cookieconsent:
     enable: False
   page:
-    hiddenFromHomePage: True
+    hiddenFromHomePage: False
     hiddenFromSearch: False
     twemoji: False
     lightgallery: False

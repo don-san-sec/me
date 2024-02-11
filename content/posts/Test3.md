@@ -4,7 +4,9 @@ date: 2024-02-11T17:31:12Z
 draft: false
 author: David Sepashvili
 ---
+
 <!--more-->
+
 # Security Operations
 ## Threat Intelligence
 - [**Predator Files: How European spyware threatens civil society around the world**](https://www.youtube.com/watch?v=uNXc_5W48bY)  \[[Slides](https://google.com)\]  \[[Whitepaper](https://google.com)\]    
