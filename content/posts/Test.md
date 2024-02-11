@@ -2,11 +2,6 @@
 title: "Test2"
 date: 2024-02-11T10:23:29Z
 draft: false
-linkToReport: false
-enableLastMod: false
-enableWordCount: false
-enableReadingTime: false
-linkToEdit: false
 ---
 
 # Security Operations
