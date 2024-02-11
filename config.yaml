@@ -30,7 +30,7 @@ params:
       typeit: False
       social: True
     posts:
-      enable: True
+      enable: False
   social:
     Github: don-san-sec
     Linkedin: donsan
