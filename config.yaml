@@ -45,10 +45,6 @@ params:
     ruby: True
     fraction: True
     fontawesome: True
-    linkToMarkdown: False
-    linkToSource: False
-    linkToEdit: False
-    linkToReport: True
     rssFullText: True
     pageStyle: wide
     seriesNavigation: True
@@ -69,6 +65,12 @@ params:
       enable: False
     comment:
       enable: False
+
+author:
+  name: "David Sepashvili"
+  email: "don-san-sec@pm.me"
+  gravatarEmail: "tux.vs.window@gmail.com"
+
 
 markup:
   highlight:
