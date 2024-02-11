@@ -18,7 +18,7 @@ params:
     - Sepashvili
   fingerprint: sha512
   dateFormat: "2006-01-02"
-  images: ["/me.jpeg"]
+  
   home:
     profile:
       enable: True
