@@ -71,7 +71,6 @@ params:
   twitterCard:
     generate: True
     card: "summary"
-    image: "/me.jpeg"
 
 author:
   name: "David Sepashvili"
