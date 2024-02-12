@@ -69,7 +69,7 @@ params:
     comment:
       enable: False
   twitterCard:
-    generate: True
+    generate: False
     card: "summary"
 
 author:
