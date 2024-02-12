@@ -68,11 +68,25 @@ params:
       enable: False
     comment:
       enable: False
+  twitterCard:
+    generate: True
+    card: "summary"
+    image: "/me.jpeg"
 
 author:
   name: "David Sepashvili"
   email: "don-san-sec@pm.me"
-  gravatarEmail: "tux.vs.window@gmail.com"
+
+# [params.twitterCard]
+#     generate = true
+#     card = "summary"
+#     image = "/me.jpeg"
+#     imageAlt = "Default Twitter Card Image"
+#     site = "your_twitter_handle"
+#     creator = "your_twitter_handle"
+#     title = "Your Site Title"
+#     description = "Your site description."
+
 
 
 markup:
