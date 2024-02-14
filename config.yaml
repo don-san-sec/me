@@ -68,23 +68,13 @@ params:
       enable: False
     comment:
       enable: False
-  twitterCard:
+  twitterCard: # https://github.com/dereckcurry/hugo-configurable-twitter-cards
     generate: False
     card: "summary"
 
 author:
   name: "David Sepashvili"
   email: "don-san-sec@pm.me"
-
-# [params.twitterCard]
-#     generate = true
-#     card = "summary"
-#     image = "/me.jpeg"
-#     imageAlt = "Default Twitter Card Image"
-#     site = "your_twitter_handle"
-#     creator = "your_twitter_handle"
-#     title = "Your Site Title"
-#     description = "Your site description."
 
 
 
