@@ -36,7 +36,6 @@ params:
   dateFormat: "2006-01-02"
   images: ["/me.jpeg"]
   optimizeImages: true
-
   home:
     profile:
       enable: True
@@ -84,6 +83,13 @@ params:
       enable: False
     comment:
       enable: False
+  footer:
+    enable: True
+    hugo: False
+    author: true
+    since: 2024
+  cookieconsent:
+    enable: False
   twitterCard: # https://github.com/dereckcurry/hugo-configurable-twitter-cards
     generate: False
     card: "summary"
