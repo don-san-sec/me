@@ -7,6 +7,6 @@ draft: false
 {{< showcase
     title="Security Talks Digest"
     summary="Weekly digest of the security talks, categorised, summarised, and tagged."
-    image="https://talks.donsan.org/logo.jpeg"
+    image="/talks-logo.png"
     link="https://talks.donsan.org"
 >}}
